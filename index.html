@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Calculator</title>
+</head>
+
+<body>
+    <section class="w-4/12 m-auto my-20">
+        <div class="bg-emerald-200">
+            <h1 class="text-center font-bold text-xl p-4">Calculator</h1>
+            <h1 id="sum" class="text-right p-4 font-bold text-xl">0</h1>
+            <h1 id="total" class="text-right p-4 font-bold text-xl">0</h1>
+            <div class="btn grid sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4 p-4">
+                <button id="btn-1"
+                    class="py-1 drop-shadow border rounded text-center font-bold text-xl bg-orange-400 btn-1">1</button>
+                <button id="btn-2"
+                    class="py-1 drop-shadow border rounded text-center font-bold text-xl bg-amber-400 btn-2">2</button>
+                <button id="btn-3"
+                    class="py-1 drop-shadow border rounded text-center font-bold text-xl bg-yellow-400 btn-3">3</button>
+                <button id="btn-4"
+                    class="py-1 drop-shadow border rounded text-center font-bold text-xl bg-green-400 btn-4">4</button>
+                <button id="btn-5"
+                    class="py-1 drop-shadow border rounded text-center font-bold text-xl bg-blue-400 btn-5">5</button>
+                <button id="btn-6"
+                    class="py-1 drop-shadow border rounded text-center font-bold text-xl bg-lime-400 btn-6">6</button>
+                <button id="btn-7"
+                    class="py-1 drop-shadow border rounded text-center font-bold text-xl bg-emerald-400 btn-7">7</button>
+                <button id="btn-8"
+                    class="py-1 drop-shadow border rounded text-center font-bold text-xl bg-teal-400 btn-8">8</button>
+                <button id="btn-9"
+                    class="py-1 drop-shadow border rounded text-center font-bold text-xl bg-cyan-400 btn-9">9</button>
+                <button id="btn-10"
+                    class="py-1 drop-shadow border rounded text-center font-bold text-xl bg-sky-400 btn-10">0</button>
+                <button id="btn-11"
+                    class="py-1 drop-shadow border rounded text-center font-bold text-xl bg-blue-400 btn-11">+</button>
+                <button id="btn-12"
+                    class="py-1 drop-shadow border rounded text-center font-bold text-xl bg-indigo-400 btn-12">-</button>
+                <button id="btn-13"
+                    class="py-1 drop-shadow border rounded text-center font-bold text-xl bg-violet-400 btn-13">X</button>
+                <button id="btn-14"
+                    class="py-1 drop-shadow border rounded text-center font-bold text-xl bg-purple-400 btn-14">/</button>
+                <button
+                    class="py-1 drop-shadow border rounded text-center font-bold text-xl bg-fuchsia-400 btn-15 col-span-2" id="clear">Clear</button>
+            </div>
+        </div>
+    </section>
+    <script src="function.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
